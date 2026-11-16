@@ -1,0 +1,61 @@
+# ===========================
+# TIL 레포용 .gitignore
+# ===========================
+
+# ---------- OS ----------
+# Windows
+Thumbs.db
+desktop.ini
+# macOS
+.DS_Store
+
+# ---------- 에디터 / IDE ----------
+.vscode/
+.idea/
+*.swp
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj*
+*.user
+Debug/
+Release/
+x64/
+
+# ---------- C / C++ 빌드 결과물 ----------
+*.o
+*.obj
+*.exe
+*.out
+*.pdb
+*.ilk
+
+# ---------- Java ----------
+*.class
+*.jar
+bin/
+out/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# ---------- Jupyter (AICE 실습) ----------
+.ipynb_checkpoints/
+
+# ---------- Django ----------
+db.sqlite3
+*.log
+media/
+
+# ---------- Vue / Node ----------
+node_modules/
+dist/
+
+# ---------- 비밀 정보 (절대 올리지 않기) ----------
+.env
+*.env
+secrets.json
